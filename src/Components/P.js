@@ -4,6 +4,8 @@ import B from "./B";
 import C from "./C";
 import D from "./D";
 
+export const { Provider } = React.createContext();
+
 const P = () => {
   const [state, setState] = useState(0);
   const [bIs55, setBis55] = useState(false);
